@@ -1,3 +1,9 @@
+# revision 19363
+# category Package
+# catalog-ctan /macros/latex/contrib/ifmtarg
+# catalog-date 2010-07-10 16:47:23 +0200
+# catalog-license lppl
+# catalog-version 1.2a
 Name:		texlive-ifmtarg
 Version:	1.2a
 Release:	1
@@ -42,6 +48,7 @@ TeXLive ifmtarg package.
 #- source
 %doc %{_texmfdistdir}/source/latex/ifmtarg/ifmtarg.ins
 %doc %{_texmfdistdir}/source/latex/ifmtarg/ifmtarg.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +59,5 @@ TeXLive ifmtarg package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
