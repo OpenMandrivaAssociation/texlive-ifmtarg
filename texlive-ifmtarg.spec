@@ -48,3 +48,17 @@ TeXLive ifmtarg package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.2a-2
++ Revision: 752693
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.2a-1
++ Revision: 718699
+- texlive-ifmtarg
+- texlive-ifmtarg
+- texlive-ifmtarg
+- texlive-ifmtarg
+
