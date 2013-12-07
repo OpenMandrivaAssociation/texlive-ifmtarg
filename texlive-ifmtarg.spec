@@ -6,7 +6,7 @@
 # catalog-version 1.2a
 Name:		texlive-ifmtarg
 Version:	1.2a
-Release:	5
+Release:	6
 Summary:	If-then-else command for processing potentially empty arguments
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ifmtarg
