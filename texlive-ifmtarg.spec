@@ -1,6 +1,6 @@
 Name:		texlive-ifmtarg
 Version:	47544
-Release:	1
+Release:	2
 Summary:	If-then-else command for processing potentially empty arguments
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ifmtarg
