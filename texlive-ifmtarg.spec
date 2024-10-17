@@ -3,7 +3,7 @@ Version:	47544
 Release:	2
 Summary:	If-then-else command for processing potentially empty arguments
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ifmtarg
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ifmtarg
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ifmtarg.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ifmtarg.doc.r%{version}.tar.xz
